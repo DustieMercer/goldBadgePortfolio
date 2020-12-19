@@ -13,25 +13,32 @@ background-image: url(./assets/stripe\ blue\ background.jpg);
 .col-7 {
   flex-direction: column;
 }
-h1 {
+h4 {
   font-weight: bolder;
-  font-size: xx-large;
+  font-style: italic;
+  font-size: large;
   color: rgb(41, 47, 54);
 }
 
 .nav-link, .nav-item {
     text-decoration: none;
-    color: rgb(247, 255, 247);
+    color: rgb(41, 47, 54);
 }
 .line1 {
-  padding-top: 50px;
-  text-align: left;
+  text-align: center;
 }
 .line2 {
   text-align: center;
 }
 .line3 {
-  text-align: right;
+  text-align: center;
+}
+.line4{
+  font-size: large;
+  padding-top: 20px;
+  text-align: left;
+  justify-content: flex-end;
+  color: rgb(41, 47, 54);
 }
 h2 {
   color: rgb(41, 47, 54);
