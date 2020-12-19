@@ -1,28 +1,41 @@
 body {
-background-image: url(./assets/stripe\ blue\ background.jpg);
+background-color: whitesmoke;
   }
+  p {
+    color: rgb(41, 47, 54);
+}
+li{
+  color: aliceblue;
+}
+
+.headshot {
+  border: solid 2px white;
+  border-radius: 10px;
+}
 .container-fluid {
   align-items: center;
+  color: rgb(whitesmoke);
   height: 15em;
   width: 100vw;
   font-weight: bold;
   font-size: 15px;
-  background-image: url(./assets/colorCover.jpg);
-  background: position 100vw;;
+  background-image: url(./assets/stripped\ background.png);
+  background: position 100vw;
 }
 .col-7 {
   flex-direction: column;
 }
+
 h4 {
   font-weight: bolder;
   font-style: italic;
   font-size: large;
-  color: rgb(41, 47, 54);
+  color:whitesmoke;
 }
 
 .nav-link, .nav-item {
     text-decoration: none;
-    color: rgb(41, 47, 54);
+    color: whitesmoke;
 }
 .line1 {
   text-align: center;
@@ -45,9 +58,13 @@ h2 {
   font-family: Arial, Helvetica, sans-serif;
   margin: 10px;
   padding: 10px;
-  border: solid 3px rgb(255, 107, 107);
+  border: solid 3px brown;
   border-style: outset;
-  background-color: rgb(255, 107, 107);
+  background-image: url();
+  /* background-color: rgb(255, 107, 107); */
+}
+h4 {
+  color: whitesmoke;
 }
 .row {
   color: rgb(191, 192, 192);
@@ -56,6 +73,7 @@ h2 {
   padding: 25px;
 }
 .about-me {
+  display: flex;
   justify-content: center;
   padding: 25px;
   margin: 25px;
@@ -103,9 +121,9 @@ h2 {
   margin: 20px 20px 20px 20px;
 }
 .card {
-  background-color: rgb(255, 230, 109);
+  background-color:;
   align-items: center;
-  border: solid 10px rgb(192, 180, 11);
+  border: solid 10px brown;
   border-style: outset;
   color: rgb(15, 76, 92);
 }
@@ -117,7 +135,7 @@ h2 {
     color: rgb(191, 192, 192);
 }
 .form-label {
-    color: rgb(191, 192, 192);
+    color:brown;
     margin-top: 5px;
 }
 .btn {
@@ -151,4 +169,6 @@ ul {
     padding: 0; 
     margin: 0; 
   }
+li {
+  color: black;
 

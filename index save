@@ -14,12 +14,7 @@
     <div class="Header">
       <div class="row">
         <div class="col-2" id="headshot">
-          <img src="./assets/DustieMercer_Headshot.png" class="headshot" alt id="Dustie Mercer" width="150" height="150">
-          <ul class="list-inline">
-            <li class="list-inline-item"><a href="./assets/DMercer_Traditional.pdf" download="Dustie Mercer Resume"><img src="./assets/pencil.png" class="icon" alt="resume-icon" width="15px" height="15px"></a></li>
-            <li class="list-inline-item"><a href="./assets/DMercer_Traditional.pdf" download="Dustie Mercer Resume">Resume</li>
-      
- 
+          <img src="./assets/DustieMercer_Headshot.png" class="img-fluid" alt id="Dustie Mercer" width="150" height="150">
         </div>
         <div class="col-1" id="social-media">
           <a href="https://www.linkedin.com/in/dustiemercer/" target="_blank"><img src="./assets/linkedinicon.png" class="rounded" width="25px"></a>
@@ -31,13 +26,13 @@
             <h1 class="display-6">jr. web developer</h1>
           </div>
           <div class='line1'>
-            <h4></h4><strong>"why fit in</strong></h4>
+            <h4><p><strong>"why fit in</strong></p></h4>
           </div>
           <div class='line2'>
-            <h4><strong>when you were born to stand out?"</strong></h4>
+            <h4><p><strong>when you were born to stand out?"</strong></p></h4>
           </div>
           <div class='line3'>
-            <h4><strong>-dr.suess</strong></h4>
+            <h4><p><strong></strong>-dr.suess</strong></p></h4>
           </div>
         </div>
         <div class="col-2" id="Nav">
@@ -67,42 +62,25 @@
 <a name="about-me"><h2>ABOUT ME</h2></a>
 <div class="about-me">
   <div class="container">
-  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="./assets/ICMI engage.JPG" class="d-block w-100" alt="icmi1">
-      </div>
-      <div class="carousel-item">
-        <img src="./assets/ICMI training.JPG" class="d-block w-100" alt="icmi2">
-      </div>
-      <div class="carousel-item">
-        <img src="..." class="d-block w-100" alt="...">
-      </div>
-    </div>
-  </div>
-  </div>
-  <div class="container">
-    <div class="col-12">
-        <p class="lead"><strong>Who am I?</strong><br>DUSTIE MERCER - Facilitator of awesomeness. Encouraging the best in others.</p>
-        <p class="lead"><strong>Where have I been?</strong><br>A proud customer experience champion with nearly 20 years service and operations leadership spanning various industry verticals. Public speaker, workshop facilitator, named a Twitter Top 50 thought leader by industry peers — I'm obsessed with behavior, and love engaging with others!</p>
-        <p class="lead"><strong>Where am I going?</strong><br>In pursuit of being a more informed and relevant leader in a world of digital transformation, I am on this new immersive journey through the world of code.</p>
-    </div>
     <div class="row">
-      <div class="col-4">
-        <img src="./assets/ENTP.png" class="img-fluid" class="icon" alt="behavior-icon" width="100px" height="100px"></a>
-        <p>16 Pesonalities</p>
-      </div>
-      <div class="col-4">
-     <img src="./assets/disc.PNG" class="img-fluid" class="icon" alt="behavior-icon" width="50px" height="50px"></a>
-      <p>DiSC</p>
-      </div>
-      <div class="col-4">
-        <img src="./assets/maverick.png" class="img-fluid" class="icon" alt="behavior-icon" width="100px" height="100px"></a>
-        <p>Predictive Index</p>
-      </div>
-    </div>
 
-  </div> 
+      <div class="col-2">        
+        <a href="./assets/DMercer_Traditional.pdf" download="Dustie Mercer Resume"><img src="./assets/resume graphic.png" class="img-fluid" class="icon" alt="resume-icon" width="50px" height="50px"></a>
+        <p>Traditional Resume</p>
+      </div>
+        <div class="col-2">        
+          <a href="./assets/Dustie Mercer Resume Inforgraphic.pdf" download="Dustie Mercer Resume"><img src="./assets/resume_info.png" class="img-fluid" class="icon" alt="resume-icon" width="50px" height="50px"></a>
+          <p>Inforgraphic Resume</p>
+      </div>
+      <div class="col-7">
+        <p class="lead">DUSTIE MERCER - Facilitator of awesomeness. Encouraging the best in others.</p>
+        <p class="lead">A proud customer experience champion with nearly 20 years service gitand operations leadership spanning various industry verticals. Public speaker, workshop facilitator, named a Twitter Top 50 thought leader by industry peers — I love engaging with others!</p>
+        <p class="lead">In pursuit of being a more informed and relevant leader in a world of digital transformation, I am on this new immersive journey through the world of code.</p>
+        <div class="col-1">
+        </div>
+    </div>
+  </div>
+</div>
 </div>
                                        
                                         <!-- PROJECTS --> 
